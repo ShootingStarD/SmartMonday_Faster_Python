@@ -1,0 +1,14 @@
+[project]
+name = "Smart_Monday_Faster_Python"
+version = "0.1"
+description = "How to make python faster"
+authors = [{ name = "Loïc Quivron", email = "loic.corbion@gmail.com" }]
+dependencies = [
+    "numpy",
+    "pandas",
+    "numba==0.59",
+    "polars",
+    "jupyter",
+    "ipykernel",
+    "seaborn",
+]
